@@ -14,6 +14,7 @@ def read_queries():
 def write_responses(result):
     print('\n'.join(result))
 
+# izskatas pareizi
 def process_queries(queries):
     result = []
     # Keep list of all existing (i.e. not deleted yet) contacts.
@@ -44,4 +45,4 @@ def process_queries(queries):
 
 if __name__ == '__main__':
     write_responses(process_queries(read_queries()))
-
+#nav ne jausmas kas ir jadara, jo jau viss stādā, pārbauda kadu Query type ievadija un no tā izriet ko dara tālāk, piešķir no ievadītā sev informāciju
